@@ -29,7 +29,7 @@ from data_join import create_master_dataset
 print("1. LOADING DATASET")
 
 # Load Favorita master dataset (using nrows for quick testing)
-data = create_master_dataset(nrows_train=100000)
+data = create_master_dataset()
 #%%
 
 print("2. FEATURE ENGINEERING")
